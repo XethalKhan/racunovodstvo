@@ -1,0 +1,50 @@
+body{
+	width: 75%;
+	margin:0 auto;
+}
+.bg { 
+	/* The image used */
+	background-image: url("../img/img1.jpg");
+
+	/* Full height */
+	height: 100%; 
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+table{
+	width:100%;
+}
+table, th, td {
+	border: 3px solid red;
+	border-collapse: collapse;
+	background-color:white;
+}
+.amount{
+	text-align: right;
+}
+.account{
+	text-align: left;
+}
+.header{
+	text-align: center;
+}
+.data{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.row1{
+	width: 15%;
+}
+.subrow1{
+	width: 7.5%;
+}
+.row3{
+	width: 30%;
+}
+.subrow3{
+	width: 15%;
+}
